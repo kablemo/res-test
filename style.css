@@ -1,5 +1,5 @@
 body {
-background-color: lime;
+background-color: yellow;
 }
 
 .fuckwit {
@@ -13,8 +13,8 @@ background-color: lime;
 
 
 @media only screen
-and (min-device-width: 640px)
-and (max-device-width: 1136px)
+and (min-width: 640px)
+and (max-width: 1136px)
 and (orientation: Portrait) {
 
   body {
