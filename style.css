@@ -16,13 +16,14 @@ background-color: yellow;
 and (min-width: 640px)
 and (max-width: 1000px) {
 
-  body {
-    background-color: pink;
-  }
+   body {
+      background-color: pink;
+      font-size: 24px;
+    }
 
-.fuckwit {
-  background-color: blue;
-  font-size: 1.5rem;
-}
+  .fuckwit {
+    background-color: blue;
+    font-size: 1.5rem;
+  }
 
 }
