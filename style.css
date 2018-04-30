@@ -1,5 +1,5 @@
 html {
-  font-size: 22px;
+  font-size: 8vw;
 }
 
 body {
@@ -17,13 +17,9 @@ background-color: yellow;
 
 
 @media screen and (min-width: 640px) {
-  html {
-    font-size: calc(16px + 6 * ((100vw - 1136px) / 640));
-  }
-  
-  body {
+
+body {
     background-color: pink;
-    font-family: 1rem;
   }
 
 .fuckwit {
@@ -32,3 +28,4 @@ background-color: yellow;
 }
 
 }
+
