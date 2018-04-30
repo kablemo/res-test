@@ -16,15 +16,19 @@ background-color: yellow;
 }
 
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 640px) {
   html {
-    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+    font-size: calc(16px + 6 * ((100vw - 1136px) / 640));
   }
-}
+  
+  body {
+    background-color: pink;
+    font-family: 1rem;
+  }
 
-@media screen and (min-width: 1000px) {
-  html {
-    font-size: 22px;
-  }
+.fuckwit {
+  background-color: blue;
+  font-size: 1.5rem;
+}
 
 }
