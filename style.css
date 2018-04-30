@@ -1,0 +1,48 @@
+body {
+background-color: lime;
+}
+
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px) {
+
+  body {
+    background-color: pink;
+  }
+
+}
+
+@media only screen
+and (min-device-width: 736px)
+and (max-device-width: 1366px) {
+
+  body {
+    background-color: pink;
+  }
+
+}
+
+@media only screen
+and (min-width: 304px)
+and (max-width: 400px) {
+
+  body {
+    background-color: pink;
+  }
+
+  p {
+    font-size: 2.5rem;
+  }
+
+}
+
+
+@media only screen
+and (min-width: 401px)
+and (max-width: 600px) {
+
+  body {
+    background-color: yellow;
+  }
+
+}
