@@ -13,8 +13,9 @@ background-color: lime;
 
 
 @media only screen
-and (min-device-width: 321px)
-and (max-device-width: 566px) {
+and (min-device-width: 640px)
+and (max-device-width: 1136px)
+and (orientation: Portrait) {
 
   body {
     background-color: pink;
@@ -24,50 +25,5 @@ and (max-device-width: 566px) {
   background-color: blue;
   font-size: 1.5rem;
 }
-
-}
-
-@media only screen
-and (min-device-width: 321px)
-and (max-device-width: 566px) {
-
-  body {
-    background-color: pink;
-  }
-
-  .fuckwit {
-    background-color: aquamarine;
-    font-size: 1.5rem;
-  }
-
-}
-
-@media only screen
-and (min-width: 321px)
-and (max-width: 566px) {
-
-  body {
-    background-color: pink;
-  }
-
-  p {
-    font-size: 2.5rem;
-  }
-
-  .fuckwit {
-    background-color: grey;
-    font-size: 1.5rem;
-  }
-
-}
-
-
-@media only screen
-and (min-width: 321px)
-and (max-width: 566px) {
-
-  body {
-    background-color: yellow;
-  }
 
 }
